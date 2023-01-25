@@ -1,0 +1,16 @@
+@import "typography";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: $cream;
+    position: relative;
+    width: 100%;
+    min-height: 650px;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+$breakpoint:(
+    "mobile":375px,
+    "desktop":1440px
+);
+
+@mixin mobile {
+    @media screen and (min-width:map-get($breakpoint,"mobile")) {
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media screen and (min-width:map-get($breakpoint, "desktop")) {
+        @content;
+    }
+}
