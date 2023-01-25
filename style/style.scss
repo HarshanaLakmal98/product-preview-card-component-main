@@ -36,6 +36,7 @@
                 img{
                     width: 100%;
                     display: block;
+                    height: 100%;
                 }
                 .img-mobile{
                     @include mobile{
@@ -108,7 +109,7 @@
         @include desktop{
             display: flex;
             flex-direction: row;
-            max-width:450px;
+            max-width:500px;
             align-items: center;
             section{
                 flex: 100%;
@@ -116,7 +117,8 @@
                 &.content{
                     display: flex;
                     flex-direction: column;
-                    gap: 1rem;
+                    gap: 1.25rem;
+                    padding: $padding-base;
                 }
             }
         }
